@@ -5,7 +5,7 @@
 /**
  * main - main function to generate a random number
  *
- * Return Always 0 (Succes)
+ * Return Always 0 (Success)
  *
  */
 /* betty style doc for function main goes there */
