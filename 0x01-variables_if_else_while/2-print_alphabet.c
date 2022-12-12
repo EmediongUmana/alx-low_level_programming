@@ -11,7 +11,7 @@ int main(void)
 	while (c <= '2')
 	{
 		putchar(c);
-		ch++;
+		c++;
 	}
 	putchar('\n');
 	return (0);
