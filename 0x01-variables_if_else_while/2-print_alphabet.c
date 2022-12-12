@@ -1,17 +1,16 @@
 #include <stdio.h>
-#include <stdlib.h>
 /**
- * main - returns alphabets
- *
- * Return: Always 0 (Success)
- */
+* main - Entry point
+*
+* Return: Always 0 (Success)
+*/
 int main(void)
 {
-	int ch = 'a';
+	char c = 'a';
 
-	while (ch <= '2')
+	while (c <= '2')
 	{
-		putchar(ch);
+		putchar(c);
 		ch++;
 	}
 	putchar('\n');
