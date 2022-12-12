@@ -4,19 +4,19 @@
 /**
  * main - return alphabets lower and higher
  *
- * Return 0 (Sucess)
+ * Return: 0 (Success)
  */
 int main(void)
 {
 	int ch = 'a';
 	int CH = 'A';
 
-	while (ch <= '2')
+	while (ch <= 'z')
 	{
 		putchar(ch);
 		ch++;
 	}
-	while (CH <= '2')
+	while (CH <= 'Z')
 	{
 		putchar(CH);
 		CH++;
